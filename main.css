@@ -1,0 +1,22 @@
+div {
+    background-color: beige;
+}
+
+#setting {
+    float: left;
+    background-color: aquamarine;
+    border-radius: 3px;
+    border: 2px double #8AC007;
+}
+
+#plane {
+    float: left;
+    border: 5px solid black; 
+}
+
+
+
+#id_submit {
+    width: 100%;
+    font-size: 13;
+}

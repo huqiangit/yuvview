@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>picture preview</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<body>
+    <div id="setting">
+        <input type="file" id="avatar" name="avatar">
+        <hr />
+        <table>
+            <tr>
+                <td><label>out_width:</label></td>
+                <td><input id="out_width" type=text /></td>
+            </tr>
+            <tr>
+                <td><label>out_height:</label></td>
+                <td><input id="out_height" type=text /></td>
+            </tr>
+            <tr>
+                <td><label>in_stride0:</label></td>
+                <td><input id="in_stride0" type=text /></td>
+            </tr>
+            <tr>
+                <td><label>in_stride1:</label></td>
+                <td><input id="in_stride1" type=text /></td>
+            </tr>
+            <tr>
+                <td><label>in_stride2:</label></td>
+                <td><input id="in_stride2" type=text /></td>
+            </tr>
+            <tr>
+                <td><label>in_base:</label></td>
+                <td><input id="in_base" type=text /></td>
+            </tr>
+            <tr>
+                <td><label>in_offset0:</label></td>
+                <td><input id="in_offset0" type=text /></td>
+            </tr>
+            <tr>
+                <td><label>in_offset1:</label></td>
+                <td><input id="in_offset1" type=text /></td>
+            </tr>
+            <tr>
+                <td><label>in_offset2:</label></td>
+                <td><input id="in_offset2" type=text /></td>
+            </tr>
+            <tr>
+                <td>pixelformat:</td>
+                <td>
+                    <select id="format">
+                        <option value="YUYV">YUYV</option>
+                        <option value="I420">I420</option>
+                        <option value="YV12">YV12</option>
+                        <option value="NV12">NV12</option>
+                        <option value="ARGB">ARGB</option>
+                    </select>
+                </td>
+            </tr>
+
+
+        </table>
+
+        <hr />
+
+        <button id=id_submit>show</button>
+
+    </div>
+
+
+    <div id="plane">
+        <canvas id="canvas"></canvas>
+    </div>
+
+
+
+</body>
+
+</html>
