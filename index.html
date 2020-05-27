@@ -21,6 +21,22 @@
                 <td><input id="out_height" type=text /></td>
             </tr>
             <tr>
+                <td>=============</td>
+                <td>=========</td>
+            </tr>
+            <tr>
+                <td>in_pixelformat:</td>
+                <td>
+                    <select id="format">
+                        <option value="YUYV">YUYV</option>
+                        <option value="I420">I420</option>
+                        <option value="YV12">YV12</option>
+                        <option value="NV12">NV12</option>
+                        <option value="ARGB">ARGB</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
                 <td><label>in_stride0:</label></td>
                 <td><input id="in_stride0" type=text /></td>
             </tr>
@@ -34,7 +50,7 @@
             </tr>
             <tr>
                 <td><label>in_base:</label></td>
-                <td><input id="in_base" type=text /></td>
+                <td><input id="in_base" type=text value="0" /></td>
             </tr>
             <tr>
                 <td><label>in_offset0:</label></td>
@@ -48,18 +64,7 @@
                 <td><label>in_offset2:</label></td>
                 <td><input id="in_offset2" type=text /></td>
             </tr>
-            <tr>
-                <td>pixelformat:</td>
-                <td>
-                    <select id="format">
-                        <option value="YUYV">YUYV</option>
-                        <option value="I420">I420</option>
-                        <option value="YV12">YV12</option>
-                        <option value="NV12">NV12</option>
-                        <option value="ARGB">ARGB</option>
-                    </select>
-                </td>
-            </tr>
+
 
 
         </table>
